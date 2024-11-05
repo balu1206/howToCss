@@ -1,0 +1,42 @@
+.card{
+    width: 400px;
+    border: 1.5px solid darkgray;
+    margin: 50px auto;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 0;
+}
+.main{
+    margin: 20px;
+}
+.card .subscribe{
+    color: rgb(105, 103, 103);
+    font-weight: 500;
+}
+.card h2{
+    font-weight: 500;
+    font-size: 23px;
+}
+.card .paragraph{
+    font-size: 19px;
+    color: rgb(105, 103, 103);
+    line-height: 26px;
+    font-weight: 500;
+    /* border: 1px solid red; */
+}
+.card button{
+    margin-top: 15px;
+    padding: 10px 20px 10px 20px;
+    width: 45%;
+    border: 1.5px solid darkgray;
+    background: none;
+    color: rgb(5, 105, 188);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+}

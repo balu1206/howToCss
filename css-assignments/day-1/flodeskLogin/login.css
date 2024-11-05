@@ -1,0 +1,74 @@
+.login {
+  width: 300px;
+  margin: 100px auto;
+  /* border: 2px solid black; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.login h1 {
+  text-align: center;
+  font-size: 52px;
+  font-family: serif;
+}
+.login .welcome {
+  text-align: center;
+  font-weight: 700;
+}
+.inputs {
+  margin: 20px 0 20px 0;
+}
+.inputs input {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 5px 15px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  outline: none;
+  color: grey;
+  font-weight: 600;
+}
+.pass{
+    /* border: 1px solid red; */
+    position: relative;
+}
+.show{
+    position: absolute;
+    top: 12px;
+    right: 35px;
+    font-size: 10px;
+    color: lightgray;
+}
+.login button {
+  width: 70%;
+  margin-left: 40px;
+  padding: 12px 30px 12px 30px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  border-radius: 50px;
+}
+.alternate {
+  margin-top: 30px;
+  color: gray;
+  text-align: center;
+  font-size: 14px;
+}
+.alternate p {
+  color: gray;
+  font-weight: 500;
+}
+.alternate a {
+  color: gray;
+  font-weight: 700;
+}
+.terms{
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 10px;
+    color: gray;
+    font-weight: 400;
+    text-align: center;
+}
+.terms span{
+    text-decoration: underline;
+}
