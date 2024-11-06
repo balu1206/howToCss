@@ -1,0 +1,30 @@
+.card{
+    width: 700px;
+    position: relative;
+    font-family: sans-serif;
+    margin: 50px auto;
+}
+.card .main{
+    position: relative;
+}
+img{
+    width:100%;
+    object-fit: cover;
+    border-radius: 12px;
+    position: absolute;
+}
+.card .content{
+    position: absolute;
+    top:220px
+}
+.content{
+    text-align: center;
+    color: white;
+    
+}
+.content button{
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+}

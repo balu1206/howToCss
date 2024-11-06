@@ -1,0 +1,83 @@
+.card{
+    width: 530px;
+    margin: 50px auto;
+    border: 1px solid darkgray;
+    border-radius: 18px;
+    font-family: sans-serif;
+    padding: 0;
+}
+.image{
+    position: relative;
+    width: 95%;
+    margin: 8px auto;
+}
+.image img{
+    width: 100%;
+    border-radius: 26px;
+}
+.image .promoted{
+    position: absolute;
+    background: rgb(136, 134, 134);
+    color: lightgray;
+    padding: 1px 3px;
+    border-radius: 2px;
+    top:0;
+    left: 3%;
+    width: 15%;
+    text-align: center;
+}
+.image .discount{
+    background: blue;
+    position: absolute;
+    width: 35%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    left: 0;
+    bottom: 3%;
+    padding: 3px;
+    font-weight: 500;
+}
+.image .time{
+    background-color: white;
+    padding: 4px 8px;
+    right: 3%;
+    position: absolute;
+    bottom: 2%;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.card .main{
+    /* border: 1px solid red; */
+    margin-left: 13px;
+}
+.main .center{
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.main .causine{
+    margin: 8px 0px ;
+    color: gray;
+    font-size: 20px;
+}
+.card .footer{
+    border-top: 1px solid lightgray;
+    width: 95%;
+    position: relative;
+    margin: 10px auto; 
+}
+.footer img{
+    width: 15%;
+    margin: 25px 0px;
+    position: absolute;
+}
+.footer .safety{
+    position: inherit;
+    width: 75%;
+    left: 18%;
+    font-size: 19px;
+    font-weight: 500;
+    color: gray;
+}

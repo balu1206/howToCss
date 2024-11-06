@@ -1,0 +1,89 @@
+.card{
+    width: 800px;
+    font-family: sans-serif;
+    margin: 50px auto;
+}
+.content{
+    position: relative;
+}
+.content img{
+    width: 100%;
+    /* height: 50%; */
+}
+h1{
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    text-align: center;
+    font-size: 62px;
+    color: white;
+    /* border: 1px solid green; */
+    
+}
+h2{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    /* border: 1px solid blue; */
+}
+.search{
+  position: absolute;
+  background: white;
+  width: 70%;
+  left: 13%;
+  top: 60%;
+  /* border: 3px solid black; */
+  padding: 10px;
+  border-radius: 5px;  
+}
+.search label{
+  border-right: 2px solid gray;
+  padding-right: 100px;
+  margin-right: 2px;
+  font-size: 16px;
+  color: gray;
+}
+.search input{
+  padding: 5px;
+  width: 60%;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+ 
+/* .parant {
+  border: 1px solid red;
+  position: relative;
+}
+.a {
+  width: 300px;
+  height: 300px;
+  background: red;
+  position: relative;
+  right: 50px;
+}
+.b {
+  height: 100px;
+  width: 100px;
+  background: green;
+  position: absolute;
+  left: 200px;
+  top:200px;
+}
+.c {
+  height: 100px;
+  width: 100px;
+  background: blue;
+  position: absolute;
+  left: 150px;
+}
+.d {
+  height: 100px;
+  width: 100px;
+  background: rgb(6, 18, 15);
+  position: absolute; 
+  top: 0;
+} */
